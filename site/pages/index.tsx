@@ -74,11 +74,11 @@ export default function Home({
           />
         ))}
       </Grid>
-      <Marquee>
+      {/* <Marquee variant="secondary">
         {products.slice(3).map((product: any, i: number) => (
           <ProductCard key={product.id} product={product} variant="slim" />
         ))}
-      </Marquee>
+      </Marquee> */}
       {/* <HomeAllProductsGrid
         newestProducts={products}
         categories={categories}
