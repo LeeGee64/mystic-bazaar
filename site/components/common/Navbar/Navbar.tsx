@@ -3,7 +3,7 @@ import Link from 'next/link'
 import s from './Navbar.module.css'
 import NavbarRoot from './NavbarRoot'
 import { Logo, Container } from '@components/ui'
-import { Searchbar, UserNav } from '@components/common'
+import { Searchbar } from '@components/common'
 
 interface Link {
   href: string
@@ -40,9 +40,6 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
             <Searchbar />
           </div>
         )}
-        <div className="flex items-center justify-end flex-1 space-x-8">
-          <UserNav />
-        </div>
       </div>
       {process.env.COMMERCE_SEARCH_ENABLED && (
         <div className="flex pb-4 lg:px-6 lg:hidden">

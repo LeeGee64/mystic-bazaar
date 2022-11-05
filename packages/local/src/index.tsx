@@ -4,8 +4,8 @@ import {
 } from '@vercel/commerce'
 import { localProvider, LocalProvider } from './provider'
 
-export { localProvider }
-export type { LocalProvider }
+// export { localProvider }
+// export type { LocalProvider }
 
 export const CommerceProvider = getCommerceProvider(localProvider)
 
