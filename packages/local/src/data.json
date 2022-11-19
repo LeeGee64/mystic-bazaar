@@ -1,81 +1,201 @@
 {
   "products": [
     {
-      "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzU0NDczMjUwMjQ0MjA=",
-      "name": "New Short Sleeve T-Shirt",
-      "vendor": "Next.js",
-      "path": "/new-short-sleeve-t-shirt",
-      "slug": "new-short-sleeve-t-shirt",
-      "price": { "value": 25, "currencyCode": "USD" },
-      "description": "Show off your love for Next.js and Vercel with this unique, limited edition t-shirt. This design is part of a limited run, numbered drop at the June 2021 Next.js Conf. It features a unique, handcrafted triangle design. Get it while supplies last - only 200 of these shirts will be made! All proceeds will be donated to charity.",
-      "descriptionHtml": "<p><span>Show off your love for Next.js and Vercel with this unique,&nbsp;</span><strong>limited edition</strong><span>&nbsp;t-shirt. This design is part of a limited run, numbered drop at the June 2021 Next.js Conf. It features a unique, handcrafted triangle design. Get it while supplies last - only 200 of these shirts will be made!&nbsp;</span><strong>All proceeds will be donated to charity.</strong></p>",
+      "id": "pr2EpPGRZJH3a1E4ZBxX9mwojGWIvn=",
+      "name": "Mugwort",
+      "path": "/mugwort",
+      "slug": "mugwort",
+      "date": "01/01/2022",
+      "category": ["herbs","lunar"],
+      "description": "Enjoy this multipurpose herb fresh from ethically sourced farms!",
+      "descriptionHtml": "<p><span>Enjoy this multipurpose herb fresh from ethically sourced farms!</span></p>",
       "images": [
         {
-          "url": "/assets/drop-shirt-0.png",
-          "altText": "Shirt",
+          "url": "/assets/herbs/mugwort1.jpeg",
+          "altText": "Mugwort",
           "width": 1000,
           "height": 1000
         },
         {
-          "url": "/assets/drop-shirt-1.png",
-          "altText": "Shirt",
+          "url": "/assets/herbs/mugwort2.jpeg",
+          "altText": "Mugwort",
           "width": 1000,
           "height": 1000
         },
         {
-          "url": "/assets/drop-shirt-2.png",
-          "altText": "Shirt",
+          "url": "/assets/herbs/mugwort3.jpeg",
+          "altText": "Mugwort",
           "width": 1000,
           "height": 1000
         }
       ],
-      "variants": [
+      "options": 
         {
-          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzU0NDczMjUwMjQ0MjAss=",
-          "name": "New Short Sleeve T-Shirt",
-          "sku": "new-short-sleeve-t-shirt",
-          "options": [
-            {
-              "__typename": "MultipleChoiceOption",
-              "id": "asd",
-              "displayName": "Size",
-              "values": [
-                {
-                  "label": "XL"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "options": [
-        {
-          "id": "option-color",
-          "displayName": "Color",
+          "id": "option-amount",
+          "displayName": "Amount",
           "values": [
             {
-              "label": "color",
-              "hexColors": ["#222"]
+              "label": "4oz",
+              "price": { "value": 8, "currencyCode": "USD" }
+            },
+            {
+              "label": "6oz",
+              "price": { "value": 12, "currencyCode": "USD" }
+            },
+            {
+              "label": "8oz",
+              "price": { "value": 16, "currencyCode": "USD" }
             }
           ]
+        }  
+    },
+    {
+      "id": "sDsI8Emm1w84FtLM1S51uKDXhgRaB8=",
+      "name": "Sage",
+      "path": "/sage",
+      "slug": "sage",
+      "date": "02/02/2022",
+      "category": ["herbs","earth"],
+      "description": "Enjoy this multipurpose herb fresh from ethically sourced farms!",
+      "descriptionHtml": "<p><span>Enjoy this multipurpose herb fresh from ethically sourced farms!</span></p>",
+      "images": [
+        {
+          "url": "/assets/herbs/sage1.jpeg",
+          "altText": "Sage",
+          "width": 1000,
+          "height": 1000
         },
         {
-          "id": "option-size",
-          "displayName": "Size",
+          "url": "/assets/herbs/sage2.jpeg",
+          "altText": "Sage",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/assets/herbs/sage3.jpeg",
+          "altText": "Sage",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": 
+        {
+          "id": "option-amount",
+          "displayName": "Amount",
           "values": [
             {
-              "label": "S"
+              "label": "4oz",
+              "price": { "value": 6, "currencyCode": "USD" }
             },
             {
-              "label": "M"
+              "label": "6oz",
+              "price": { "value": 9, "currencyCode": "USD" }
             },
             {
-              "label": "L"
+              "label": "8oz",
+              "price": { "value": 12, "currencyCode": "USD" }
             }
           ]
+        }  
+    },{
+      "id": "2oPgJiMkDNqb9rI3Ys363wdbrYqudO=",
+      "name": "Mullein",
+      "path": "/sage",
+      "slug": "sage",
+      "date": "02/02/2022",
+      "category": ["herbs","earth","air"],
+      "description": "Enjoy this multipurpose herb fresh from ethically sourced farms!",
+      "descriptionHtml": "<p><span>Enjoy this multipurpose herb fresh from ethically sourced farms!</span></p>",
+      "images": [
+        {
+          "url": "/assets/herbs/mullein1.jpeg",
+          "altText": "Mullein",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/assets/herbs/mullein2.jpeg",
+          "altText": "Mullein",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/assets/herbs/mullein3.jpeg",
+          "altText": "Mullein",
+          "width": 1000,
+          "height": 1000
         }
-      ]
+      ],
+      "options": 
+        {
+          "id": "option-amount",
+          "displayName": "Amount",
+          "values": [
+            {
+              "label": "4oz",
+              "price": { "value": 5, "currencyCode": "USD" }
+            },
+            {
+              "label": "6oz",
+              "price": { "value": 7.5, "currencyCode": "USD" }
+            },
+            {
+              "label": "8oz",
+              "price": { "value": 10, "currencyCode": "USD" }
+            }
+          ]
+        }  
+    },
+    {
+      "id": "FdknMyYReI5sTYWjyeZYAnHP4RfbCC=",
+      "name": "Elderflower",
+      "path": "/elderflower",
+      "slug": "elderflower",
+      "date": "02/02/2022",
+      "category": ["herbs","sun"],
+      "description": "Enjoy this multipurpose herb fresh from ethically sourced farms!",
+      "descriptionHtml": "<p><span>Enjoy this multipurpose herb fresh from ethically sourced farms!</span></p>",
+      "images": [
+        {
+          "url": "/assets/herbs/elderflower1.jpeg",
+          "altText": "Elderflower",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/assets/herbs/elderflower2.jpeg",
+          "altText": "Elderflower",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/assets/herbs/elderflower3.jpeg",
+          "altText": "Elderflower",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": 
+        {
+          "id": "option-amount",
+          "displayName": "Amount",
+          "values": [
+            {
+              "label": "4oz",
+              "price": { "value": 7, "currencyCode": "USD" }
+            },
+            {
+              "label": "6oz",
+              "price": { "value": 10.5, "currencyCode": "USD" }
+            },
+            {
+              "label": "8oz",
+              "price": { "value": 14, "currencyCode": "USD" }
+            }
+          ]
+        }  
     }
+
    
   ]
 }
